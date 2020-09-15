@@ -1,0 +1,37 @@
+>=dev-libs/libpcre2-10.35 pcre16
+>=media-libs/libglvnd-1.3.2 X
+>=media-libs/libglvnd-1.3.2 abi_x86_32
+>=sys-apps/util-linux-2.35.2 caps
+>=x11-base/xcb-proto-1.14-r1 abi_x86_32
+>=x11-libs/gdk-pixbuf-2.40.0 jpeg
+>=x11-libs/libX11-1.6.12 abi_x86_32
+>=x11-libs/libXau-1.0.9 abi_x86_32
+>=x11-libs/libXdmcp-1.1.3 abi_x86_32
+>=x11-libs/libXext-1.3.4 abi_x86_32
+>=x11-libs/libvdpau-1.3 abi_x86_32
+>=x11-libs/libxcb-1.14 abi_x86_32
+>=x11-libs/libxkbcommon-0.10.0-r1 X
+app-text/xmlto text
+dev-db/sqlite secure-delete
+dev-lang/python sqlite
+dev-python/PyQt5 printsupport sql declarative network multimedia gui widgets webchannel
+dev-python/numpy lapack
+dev-qt/* qml widgets svc
+dev-qt/qtgui egl
+kde-frameworks/kitemmodels qml
+media-libs/libpng apng
+media-libs/libvpx postproc
+media-libs/libvpx svc
+media-libs/mesa wayland
+net-libs/nodejs inspector
+net-libs/nodejs npm
+sys-cluster/ceph fuse cephfs
+sys-libs/zlib abi_x86_32 minizip
+wireless/bluez udev deprecated extra-tools
+www-client/firefox geckodriver
+x11-base/xorg-server xephyr kdrive
+x11-misc/lightdm non_root
+x11-misc/redshift geoclue
+x11-misc/rofi windowmode
+x11-misc/xmobar xft xpm wifi iwlib
+x11-wm/dwm savedconfig

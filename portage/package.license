@@ -1,0 +1,6 @@
+# required by sys-kernel/linux-firmware (argument)
+=sys-kernel/linux-firmware-20200817 linux-fw-redistributable no-source-code
+# required by x11-drivers/nvidia-drivers (argument)
+>=x11-drivers/nvidia-drivers-450.66 NVIDIA-r2
+# Vivaldi
+>=www-client/vivaldi-3.2.1967.47_p1 Vivaldi

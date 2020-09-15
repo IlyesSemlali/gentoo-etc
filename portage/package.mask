@@ -1,0 +1,4 @@
+kde-frameworks/kwayland
+kde-plasma/kwayland-server
+kde-frameworks/kwallet
+kde-frameworks/kinit
