@@ -4,3 +4,4 @@
 >=x11-drivers/nvidia-drivers-450.66 NVIDIA-r2
 # Vivaldi
 >=www-client/vivaldi-3.2.1967.47_p1 Vivaldi
+>=www-plugins/chrome-binary-plugins-85.0.4183.102:stable google-chrome
