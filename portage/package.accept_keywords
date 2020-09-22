@@ -18,4 +18,4 @@ media-sound/bluez-alsa ~amd64
 net-libs/* ~amd64
 www-client/qutebrowser ~amd64
 x11-*/* ~amd64
-sys-libs/glibc ~amd64
+sys-libs/glibc amd64
