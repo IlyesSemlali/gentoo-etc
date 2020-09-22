@@ -1,4 +1,3 @@
-media-video/ffmpeg chromium sdl
 >=dev-libs/libpcre2-10.35 pcre16
 >=media-libs/libglvnd-1.3.2 X
 >=media-libs/libglvnd-1.3.2 abi_x86_32
@@ -24,8 +23,10 @@ media-libs/libpng apng
 media-libs/libvpx postproc
 media-libs/libvpx svc
 media-libs/mesa wayland
+media-video/ffmpeg chromium sdl
 net-libs/nodejs inspector
 net-libs/nodejs npm
+sys-apps/systemd cgroup-hybrid
 sys-cluster/ceph fuse cephfs
 sys-libs/zlib abi_x86_32 minizip
 wireless/bluez udev deprecated extra-tools
