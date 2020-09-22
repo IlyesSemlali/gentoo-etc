@@ -1,5 +1,3 @@
-sys-kernel/linux-headers ~amd64
-
 #x11-libs/libtinynotify* ~amd64
 #x11-libs/libxcb ~amd64
 #x11-misc/* ~amd64
@@ -13,9 +11,11 @@ dev-libs/* ~amd64
 dev-python/* ~amd64
 dev-qt/* ~amd64
 dev-ruby/* ~amd64
+dev-util/boost-build ~amd64
 media-fonts/* ~amd64
 media-sound/bluez-alsa ~amd64
 net-libs/* ~amd64
+sys-kernel/linux-headers ~amd64
+sys-libs/glibc amd64
 www-client/qutebrowser ~amd64
 x11-*/* ~amd64
-sys-libs/glibc amd64
