@@ -19,3 +19,4 @@ sys-kernel/linux-headers ~amd64
 sys-libs/glibc amd64
 www-client/qutebrowser ~amd64
 x11-*/* ~amd64
+sys-kernel/gentoo-sources ~amd64
