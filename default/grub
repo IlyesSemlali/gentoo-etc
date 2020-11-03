@@ -26,8 +26,7 @@ GRUB_DISTRIBUTOR="Gentoo"
 # GRUB_CMDLINE_LINUX="net.ifnames=0"
 #
 # Boot with systemd instead of sysvinit (openrc)
-#GRUB_CMDLINE_LINUX="init=/usr/lib/systemd/systemd acpi_backlight=vendor"
-GRUB_CMDLINE_LINUX="init=/usr/lib/systemd/systemd i915.enable_dpcd_backlight=0"
+GRUB_CMDLINE_LINUX="init=/usr/lib/systemd/systemd i915.enable_dpcd_backlight=0 quiet raid=noautodetect"
 
 # Append parameters to the linux kernel command line for non-recovery entries
 #GRUB_CMDLINE_LINUX_DEFAULT=""
