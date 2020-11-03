@@ -1,7 +1,4 @@
 >=dev-libs/libpcre2-10.35 pcre16
->=media-libs/libglvnd-1.3.2 X
->=media-libs/libglvnd-1.3.2 abi_x86_32
->=sys-apps/util-linux-2.35.2 caps
 >=x11-base/xcb-proto-1.14-r1 abi_x86_32
 >=x11-libs/gdk-pixbuf-2.40.0 jpeg
 >=x11-libs/libX11-1.6.12 abi_x86_32
@@ -11,6 +8,9 @@
 >=x11-libs/libvdpau-1.3 abi_x86_32
 >=x11-libs/libxcb-1.14 abi_x86_32
 >=x11-libs/libxkbcommon-0.10.0-r1 X
+app-admin/keepassxc browser
+app-editors/vim terminal python vim-pager
+app-text/poppler cairo
 app-text/xmlto text
 dev-db/sqlite secure-delete
 dev-lang/python sqlite
@@ -19,17 +19,23 @@ dev-python/numpy lapack
 dev-qt/* qml widgets svc
 dev-qt/qtgui egl
 kde-frameworks/kitemmodels qml
+media-libs/libglvnd abi_x86_32
 media-libs/libpng apng
 media-libs/libvpx postproc
 media-libs/libvpx svc
 media-libs/mesa wayland
 media-video/ffmpeg chromium sdl
+media-video/vlc matroska mp3 flac dts chromecast qt X alsa libnotify loudness mpeg nfs mtp pulseaudio udev
 net-libs/nodejs inspector
 net-libs/nodejs npm
+sys-apps/fwupd dell uefi
 sys-apps/systemd cgroup-hybrid
+sys-apps/util-linux caps
+sys-boot/grub grub_platforms_pc
 sys-cluster/ceph fuse cephfs
+sys-kernl/linux-firmware redistributable unknown-license
 sys-libs/zlib abi_x86_32 minizip
-wireless/bluez udev deprecated extra-tools
+wireless/bluez udev deprecated extra-tools user-session test-programs
 www-client/firefox geckodriver
 x11-base/xorg-server xephyr kdrive
 x11-misc/lightdm non_root
