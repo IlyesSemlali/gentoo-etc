@@ -5,6 +5,8 @@
 #x11-wm/xmonad-contrib ~amd64
 =x11-misc/picom-9999:0 **
 app-admin/haskell-updater ~amd64
+app-arch/brotli ~amd64
+app-emulation/*virtualbox* ~amd64
 app-emulation/vagrant ~amd64
 dev-haskell/* ~amd64
 dev-lang/* ~amd64
@@ -21,3 +23,4 @@ sys-kernel/linux-headers ~amd64
 sys-libs/glibc amd64
 www-client/qutebrowser ~amd64
 x11-*/* ~amd64
+net-analyzer/arp-scan ~amd64
