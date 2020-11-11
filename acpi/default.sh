@@ -14,6 +14,17 @@ log_unhandled() {
 	logger "ACPI event unhandled: $*"
 }
 
+get_xsslock_pid () {
+	ps axe | grep $1 | awk '{ if ($5 == "xss-lock") print $1 }'
+}
+
+get_open_displays() {
+	for i in "$(w | grep 'tty.*xinit')"
+	do
+		echo $(w -s | awk -F '--' '{ print $2 }' | grep -o ':.')
+	done
+}
+
 case "$group" in
 	button)
 		case "$action" in
@@ -21,12 +32,24 @@ case "$group" in
 				echo "$@" > /root/acpi_button
 				;;
 
-			# if your laptop doesnt turn on/off the display via hardware
-			# switch and instead just generates an acpi event, you can force
-			# X to turn off the display via dpms.  note you will have to run
-			# 'xhost +local:0' so root can access the X DISPLAY.
 			lid)
-				DISPLAY=':0' xset dpms force off
+				case $id in
+					close)
+						for DISPLAY in $(get_open_displays)
+						do
+							X_USER=$(ps aux | grep xinit | cut -d ' ' -f1 | head -n 1)
+							kill $(get_xsslock_pid $DISPLAY) > /tmp/debug
+							su $X_USER -c "xset dpms force off"
+						done
+						;;
+					open)
+						for DISPLAY in $(get_open_displays)
+						do
+							X_USER=$(ps aux | grep xinit | cut -d ' ' -f1 | head -n 1)
+							su $X_USER -c "nohup xss-lock xlock > /dev/null" &
+						done
+						;;
+				esac
 				;;
 
 			*)	log_unhandled $* ;;
