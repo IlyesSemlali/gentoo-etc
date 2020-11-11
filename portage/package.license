@@ -7,4 +7,4 @@
 www-plugins/chrome-binary-plugins google-chrome
 # Virtualbox
 app-emulation/virtualbox-bin PUEL
-net-im/zoom all-rights-reserved
+app-admin/terraform JSON

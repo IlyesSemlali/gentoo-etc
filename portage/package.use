@@ -24,7 +24,7 @@ media-libs/libpng apng
 media-libs/libvpx postproc
 media-libs/libvpx svc
 media-libs/mesa wayland
-media-video/ffmpeg chromium sdl
+media-video/ffmpeg chromium sdl v4l x264 x265
 media-video/vlc matroska mp3 flac dts chromecast qt X alsa libnotify loudness mpeg nfs mtp pulseaudio udev
 net-libs/nodejs inspector
 net-libs/nodejs npm
@@ -43,3 +43,4 @@ x11-misc/redshift geoclue
 x11-misc/rofi windowmode
 x11-misc/xmobar xft xpm wifi iwlib
 x11-wm/dwm savedconfig
+net-misc/remmina rdp vnc
