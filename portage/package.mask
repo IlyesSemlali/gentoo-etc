@@ -5,8 +5,8 @@ kde-plasma/plasma-workspace
 # Virtualbox is kept in a controlled version until it's safe to try an update
 # e.g. after christmas
 
-app-emulation/virtualbox
-app-emulation/virtualbox-modules
+# app-emulation/virtualbox
+# app-emulation/virtualbox-modules
 
 # <dev-libs/libfmt-7.1.1
 # <dev-libs/libpipeline-1.5.3

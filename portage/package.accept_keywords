@@ -2,10 +2,10 @@
 app-admin/haskell-updater ~amd64
 app-admin/terraform ~amd64
 app-arch/brotli ~amd64
-app-emulation/*virtualbox* ~amd64
-app-emulation/vagrant ~amd64
+# app-emulation/*virtualbox* ~amd64
+# app-emulation/vagrant ~amd64
 app-text/languagetool ~amd64
-app-text/pandoc ~amd64
+# app-text/pandoc ~amd64
 dev-haskell/* ~amd64
 dev-lang/ghc ~amd64
 dev-libs/libfmt ~amd64
