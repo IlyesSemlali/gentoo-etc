@@ -1,11 +1,9 @@
+# app-text/pandoc ~amd64
 =x11-misc/picom-9999:0 **
 app-admin/haskell-updater ~amd64
 app-admin/terraform ~amd64
 app-arch/brotli ~amd64
-# app-emulation/*virtualbox* ~amd64
-# app-emulation/vagrant ~amd64
 app-text/languagetool ~amd64
-# app-text/pandoc ~amd64
 dev-haskell/* ~amd64
 dev-lang/ghc ~amd64
 dev-libs/libfmt ~amd64
@@ -22,67 +20,7 @@ sys-kernel/gentoo-sources ~amd64
 sys-kernel/linux-headers ~amd64
 sys-libs/glibc amd64
 x11-misc/dunst ~amd64 # 1.5.0
-x11-misc/xmobar ~amd64
-x11-themes/kvantum ~amd64
-
-#### STABILISATION #####
-#
-# Keep only good packages from here (alactritty for instance)
-# write all other packages to a mask maybe ? in order to keep them from 
-# being updated when updating the system
-
-
-# dev-lang/perl ~amd64 # 5.30.3-r1
-# dev-lang/ruby ~amd64 # 2.5.8-r1
-# dev-lang/tcl ~amd64 # 8.6.9-r1
-# dev-lang/vala ~amd64 # 0.48.11
-# dev-libs/crypto++ ~amd64 # 8.2.0-r2
-# dev-libs/expat ~amd64 # 2.2.10
-# dev-libs/libbytesize ~amd64 # 2.4
-# dev-libs/libevent ~amd64 # 2.1.12
-# dev-libs/libfmt ~amd64 # 7.1.1
-# dev-libs/libgcrypt ~amd64 # 1.8.7
-# dev-libs/libgpg-error ~amd64 # 1.39
-# dev-libs/libpipeline ~amd64 # 1.5.3
-# dev-libs/libxmlb ~amd64 # 0.2.1
-# dev-libs/nettle ~amd64 # 3.6-r3
-# dev-libs/spdlog ~amd64 # 1.8.1
-# dev-libs/uthash ~amd64 # 2.1.0
-# dev-libs/vala-common ~amd64 # 0.48.11
-# dev-python/psutil ~amd64 # 5.7.3
-# dev-python/scipy ~amd64 # 1.5.3
-# dev-python/tempora ~amd64 # 4.0.1
-# dev-ruby/bcrypt_pbkdf ~amd64 # 1.0.1
-# dev-ruby/childprocess ~amd64 # 4.0.0
-# dev-ruby/concurrent-ruby ~amd64 # 1.1.7
-# dev-ruby/did_you_mean ~amd64 # 1.4.0
-# dev-ruby/domain_name ~amd64 # 0.5.20190701
-# dev-ruby/ffi ~amd64 # 1.13.1
-# dev-ruby/json ~amd64 # 2.3.1
-# dev-ruby/minitest ~amd64 # 5.14.2
-# dev-ruby/net-scp ~amd64 # 3.0.0
-# dev-ruby/power_assert ~amd64 # 1.2.0
-# dev-ruby/racc ~amd64 # 1.4.16-r1
-# dev-ruby/rake ~amd64 # 13.0.1
-# dev-ruby/rb-inotify ~amd64 # 0.10.1
-# dev-ruby/rdoc ~amd64 # 6.2.0
-# dev-ruby/rubygems ~amd64 # 3.1.4
-# dev-ruby/test-unit ~amd64 # 3.3.6
-# dev-ruby/unf_ext ~amd64 # 0.0.7.7
-# net-libs/libpcap ~amd64 # 1.10.0_pre
-# net-libs/libproxy ~amd64 # 0.4.15-r2
-# net-libs/libpsl ~amd64 # 0.21.1
-# net-libs/neon ~amd64 # 0.31.2
-# x11-drivers/nvidia-drivers ~amd64 # 455.38
-# x11-libs/libvdpau ~amd64 # 1.4
-# x11-misc/dmenu ~amd64 # 5.0
-# x11-misc/i3lock ~amd64 # 2.12-r2
-# x11-misc/xlockmore ~amd64 # 5.66_alpha12
-# x11-terms/alacritty ~amd64 # 0.5.0
-# x11-terms/xterm ~amd64 # 360
-
-# dev-python/more-itertools ~amd64 # 8.6.0
-# dev-python/pillow ~amd64 # 8.0.1
-
 x11-misc/rofi ~amd64 # 1.6.0
 x11-misc/shared-mime-info ~amd64 # 2.0-r2
+x11-misc/xmobar ~amd64
+x11-themes/kvantum ~amd64
