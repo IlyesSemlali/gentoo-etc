@@ -1,3 +1,18 @@
 kde-frameworks/kwayland
 kde-plasma/kwayland-server
 kde-plasma/plasma-workspace
+
+# Virtualbox is kept in a controlled version until it's safe to try an update
+# e.g. after christmas
+
+app-emulation/virtualbox
+app-emulation/virtualbox-modules
+
+# <dev-libs/libfmt-7.1.1
+# <dev-libs/libpipeline-1.5.3
+# <dev-libs/spdlog-1.8.1
+# <dev-libs/uthash-2.1.0
+# <dev-python/more-itertools-8.6.0
+# <dev-python/pillow-8.0.1
+# <dev-libs/libxmlb-0.2.1
+<x11-terms/alacritty-0.5.0
