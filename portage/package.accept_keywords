@@ -19,8 +19,13 @@ sys-fs/exfatprogs ~amd64
 sys-kernel/gentoo-sources ~amd64
 sys-kernel/linux-headers ~amd64
 sys-libs/glibc amd64
+x11-libs/libtinynotify* ~amd64
 x11-misc/dunst ~amd64 # 1.5.0
 x11-misc/rofi ~amd64 # 1.6.0
 x11-misc/shared-mime-info ~amd64 # 2.0-r2
+x11-misc/sw-notify-send ~amd64
 x11-misc/xmobar ~amd64
+x11-terms/alacritty ~amd64
 x11-themes/kvantum ~amd64
+x11-wm/xmonad ~amd64
+x11-wm/xmonad-contrib ~amd64
