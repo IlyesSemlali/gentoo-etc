@@ -16,9 +16,11 @@ media-sound/bluez-alsa ~amd64
 net-analyzer/arp-scan ~amd64
 net-im/teams ~amd64
 sys-fs/exfatprogs ~amd64
+sys-kernel/gentoo-kernel-bin ~amd64
 sys-kernel/gentoo-sources ~amd64
 sys-kernel/linux-headers ~amd64
 sys-libs/glibc amd64
+virtual/dist-kernel ~amd64
 x11-libs/libtinynotify* ~amd64
 x11-misc/dunst ~amd64 # 1.5.0
 x11-misc/rofi ~amd64 # 1.6.0

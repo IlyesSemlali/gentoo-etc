@@ -13,7 +13,7 @@ app-editors/vim terminal python vim-pager
 app-text/poppler cairo
 app-text/texlive-core xetex
 app-text/xmlto text
-dev-db/sqlite secure-delete
+dev-db/sqlite secure-delete -icu
 dev-lang/python sqlite -bluetooth
 dev-libs/libjcat gpg pkcs7
 dev-libs/xmlsec nss
