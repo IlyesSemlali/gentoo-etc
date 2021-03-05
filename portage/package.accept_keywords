@@ -3,6 +3,7 @@
 app-admin/haskell-updater ~amd64
 app-admin/terraform ~amd64
 app-arch/brotli ~amd64
+app-forensics/scalpel ~amd64
 app-text/languagetool ~amd64
 dev-haskell/* ~amd64
 dev-lang/ghc ~amd64
@@ -15,6 +16,7 @@ media-libs/libuvc ~amd64
 media-sound/bluez-alsa ~amd64
 net-analyzer/arp-scan ~amd64
 net-im/teams ~amd64
+sys-apps/bat ~amd64
 sys-fs/exfatprogs ~amd64
 sys-kernel/gentoo-kernel-bin ~amd64
 sys-kernel/gentoo-sources ~amd64
