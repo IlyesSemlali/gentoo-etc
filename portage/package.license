@@ -12,3 +12,9 @@ www-plugins/chrome-binary-plugins google-chrome
 app-emulation/virtualbox-bin PUEL
 app-admin/terraform JSON
 net-im/teams ms-teams-pre
+
+# Slack
+>=net-im/slack-4.13.0 all-rights-reserved
+
+# Google Chrome
+>=www-client/google-chrome-89.0.4389.114 google-chrome

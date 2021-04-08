@@ -9,6 +9,8 @@
 >=x11-libs/libxcb-1.14 abi_x86_32
 >=x11-libs/libxkbcommon-0.10.0-r1 X
 app-admin/keepassxc browser
+app-crypt/gcr gtk
+app-crypt/pinentry gnome-keyring
 app-editors/vim terminal python vim-pager
 app-text/poppler cairo
 app-text/texlive-core xetex

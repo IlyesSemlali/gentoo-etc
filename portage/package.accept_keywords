@@ -15,8 +15,10 @@ media-gfx/gimp-appimage ~amd64
 media-libs/libuvc ~amd64
 media-sound/bluez-alsa ~amd64
 net-analyzer/arp-scan ~amd64
+net-im/slack ~amd64
 net-im/teams ~amd64
 sys-apps/bat ~amd64
+sys-cluster/minikube ~amd64
 sys-fs/exfatprogs ~amd64
 sys-kernel/gentoo-kernel-bin ~amd64
 sys-kernel/gentoo-sources ~amd64
