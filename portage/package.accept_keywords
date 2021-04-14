@@ -1,10 +1,11 @@
-# app-text/pandoc ~amd64
 =x11-misc/picom-9999:0 **
 app-admin/haskell-updater ~amd64
 app-admin/terraform ~amd64
 app-arch/brotli ~amd64
 app-forensics/scalpel ~amd64
 app-text/languagetool ~amd64
+app-text/pandoc ~amd64
+
 dev-haskell/* ~amd64
 dev-lang/ghc ~amd64
 dev-libs/libfmt ~amd64

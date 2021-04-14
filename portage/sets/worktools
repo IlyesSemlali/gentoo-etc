@@ -1,3 +1,8 @@
+app-emulation/virtualbox
+app-emulation/virtualbox-additions
+app-emulation/virtualbox-modules
+dev-haskell/pandoc-citeproc
 net-im/slack
 net-im/teams
+sys-cluster/kubectl
 sys-cluster/minikube
