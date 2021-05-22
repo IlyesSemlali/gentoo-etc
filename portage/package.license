@@ -18,3 +18,6 @@ net-im/teams ms-teams-pre
 
 # Google Chrome
 >=www-client/google-chrome-89.0.4389.114 google-chrome
+
+# Zoom
+>=net-im/zoom-5.6.13632.0328 all-rights-reserved

@@ -5,7 +5,6 @@ app-arch/brotli ~amd64
 app-forensics/scalpel ~amd64
 app-text/languagetool ~amd64
 app-text/pandoc ~amd64
-
 dev-haskell/* ~amd64
 dev-lang/ghc ~amd64
 dev-libs/libfmt ~amd64
@@ -15,9 +14,11 @@ media-fonts/* ~amd64
 media-gfx/gimp-appimage ~amd64
 media-libs/libuvc ~amd64
 media-sound/bluez-alsa ~amd64
+media-video/shotcut ~amd64
 net-analyzer/arp-scan ~amd64
 net-im/slack ~amd64
 net-im/teams ~amd64
+net-im/zoom ~amd64
 sys-apps/bat ~amd64
 sys-cluster/minikube ~amd64
 sys-fs/exfatprogs ~amd64

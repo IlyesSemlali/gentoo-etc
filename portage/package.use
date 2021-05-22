@@ -20,6 +20,7 @@ dev-lang/python sqlite -bluetooth
 dev-libs/libjcat gpg pkcs7
 dev-libs/xmlsec nss
 dev-python/PyQt5 printsupport sql declarative network multimedia gui widgets webchannel
+dev-python/QtPy printsupport gui
 dev-python/numpy lapack
 dev-qt/* qml widgets svc
 dev-qt/qtgui egl
@@ -33,14 +34,16 @@ media-libs/libpng apng
 media-libs/libvpx postproc
 media-libs/libvpx svc
 media-libs/mesa wayland
+media-libs/mlt sdl xml jack fftw frei0r
 media-video/ffmpeg chromium sdl v4l x264 x265
 media-video/vlc matroska mp3 flac dts chromecast qt X alsa libnotify loudness mpeg nfs mtp pulseaudio udev
 net-libs/nodejs inspector
 net-libs/nodejs npm
+net-libs/zeromq drafts
 net-misc/remmina rdp vnc
 net-wireless/bluez udev deprecated extra-tools user-session
 sys-apps/dbus user-session
-sys-apps/fwupd dell uefi
+sys-apps/fwupd dell uefi gnutls
 sys-apps/systemd cgroup-hybrid
 sys-apps/util-linux caps
 sys-boot/grub grub_platforms_pc
