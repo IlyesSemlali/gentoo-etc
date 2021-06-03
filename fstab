@@ -27,5 +27,4 @@
 /dev/nvme0n1p1		/boot/efi	vfat		noatime		1 2
 /dev/nvme0n1p5		/		btrfs		noatime		0 1
 /dev/nvme0n1p3		/home/		btrfs		noatime 	0 1
-#LABEL=swap		none		swap		sw		0 0
-#/dev/cdrom		/mnt/cdrom	auto		noauto,ro	0 0
+/swapfile		none		swap		sw		0 0

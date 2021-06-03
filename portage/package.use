@@ -33,6 +33,7 @@ media-libs/libglvnd abi_x86_32
 media-libs/libpng apng
 media-libs/libvpx postproc
 media-libs/libvpx svc
+media-libs/mesa -vaapi
 media-libs/mesa wayland
 media-libs/mlt sdl xml jack fftw frei0r
 media-video/ffmpeg chromium sdl v4l x264 x265
@@ -44,11 +45,12 @@ net-misc/remmina rdp vnc
 net-wireless/bluez udev deprecated extra-tools user-session
 sys-apps/dbus user-session
 sys-apps/fwupd dell uefi gnutls
-sys-apps/systemd cgroup-hybrid
+sys-apps/systemd cgroup-hybrid cryptsetup
 sys-apps/util-linux caps
 sys-boot/grub grub_platforms_pc
 sys-cluster/ceph fuse cephfs
 sys-kernl/linux-firmware redistributable unknown-license
+dev-db/mysql -server
 sys-libs/zlib abi_x86_32 minizip
 sys-libs/zlib static-libs
 www-client/firefox geckodriver
