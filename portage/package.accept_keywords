@@ -43,4 +43,3 @@ x11-terms/alacritty ~amd64
 x11-themes/kvantum ~amd64
 x11-wm/xmonad ~amd64
 x11-wm/xmonad-contrib ~amd64
-app-forensics/scalpel ~amd64

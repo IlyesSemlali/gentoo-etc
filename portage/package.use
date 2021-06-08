@@ -15,6 +15,7 @@ app-editors/vim terminal python vim-pager
 app-text/poppler cairo
 app-text/texlive-core xetex
 app-text/xmlto text
+dev-db/mysql -server
 dev-db/sqlite secure-delete -icu
 dev-lang/python sqlite -bluetooth
 dev-libs/libjcat gpg pkcs7
@@ -50,7 +51,6 @@ sys-apps/util-linux caps
 sys-boot/grub grub_platforms_pc
 sys-cluster/ceph fuse cephfs
 sys-kernl/linux-firmware redistributable unknown-license
-dev-db/mysql -server
 sys-libs/zlib abi_x86_32 minizip
 sys-libs/zlib static-libs
 www-client/firefox geckodriver
