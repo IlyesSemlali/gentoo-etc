@@ -2,14 +2,18 @@
 app-admin/haskell-updater ~amd64
 app-admin/terraform ~amd64
 app-arch/brotli ~amd64
+app-editors/neovim ~amd64
 app-forensics/scalpel ~amd64
+app-shells/fzf ~amd64
 app-text/languagetool ~amd64
 app-text/pandoc ~amd64
 dev-haskell/* ~amd64
 dev-lang/ghc ~amd64
 dev-libs/libfmt ~amd64
 dev-libs/spdlog ~amd64
+dev-python/adblock ~amd64
 dev-python/pypeg2 ~amd64
+dev-util/goland ~amd64
 media-fonts/* ~amd64
 media-gfx/gimp-appimage ~amd64
 media-libs/libuvc ~amd64
@@ -27,6 +31,7 @@ sys-kernel/gentoo-sources ~amd64
 sys-kernel/linux-headers ~amd64
 sys-libs/glibc amd64
 virtual/dist-kernel ~amd64
+www-client/qutebrowser ~amd64
 x11-libs/libtinynotify* ~amd64
 x11-misc/dunst ~amd64 # 1.5.0
 x11-misc/rofi ~amd64 # 1.6.0
