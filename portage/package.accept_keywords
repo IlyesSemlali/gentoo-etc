@@ -11,6 +11,7 @@ dev-haskell/* ~amd64
 dev-lang/ghc ~amd64
 dev-libs/libfmt ~amd64
 dev-libs/spdlog ~amd64
+dev-libs/tree-sitter ~amd64
 dev-python/adblock ~amd64
 dev-python/pypeg2 ~amd64
 dev-util/goland ~amd64
