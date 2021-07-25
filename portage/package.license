@@ -21,3 +21,6 @@ net-im/teams ms-teams-pre
 
 # Zoom
 >=net-im/zoom-5.6.13632.0328 all-rights-reserved
+
+# UnRAR
+app-arch/unrar unRAR
