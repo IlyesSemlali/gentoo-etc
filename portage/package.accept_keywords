@@ -27,9 +27,9 @@ net-im/zoom ~amd64
 sys-apps/bat ~amd64
 sys-cluster/minikube ~amd64
 sys-fs/exfatprogs ~amd64
-sys-kernel/gentoo-kernel-bin ~amd64
-sys-kernel/gentoo-sources ~amd64
-sys-kernel/linux-headers ~amd64
+# sys-kernel/gentoo-kernel-bin ~amd64
+# sys-kernel/gentoo-sources ~amd64
+# sys-kernel/linux-headers ~amd64
 sys-libs/glibc amd64
 virtual/dist-kernel ~amd64
 www-client/qutebrowser ~amd64

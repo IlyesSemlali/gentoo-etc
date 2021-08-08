@@ -1,7 +1,8 @@
+# dev-haskell/pandoc-citeproc
 app-emulation/virtualbox
 app-emulation/virtualbox-additions
 app-emulation/virtualbox-modules
-# dev-haskell/pandoc-citeproc
+net-analyzer/netcat
 net-im/slack
 net-im/teams
 net-im/zoom

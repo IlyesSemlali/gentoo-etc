@@ -28,6 +28,7 @@ dev-qt/qtgui egl
 kde-frameworks/kitemmodels qml
 media-gfx/gimp xpm vector-icons PYTHON_TARGETS: -* python2_7 PYTHON_SINGLE_TARGET: -* python2_7
 media-gfx/imagemagick xml
+media-libs/freetype harfbuzz
 media-libs/gd png
 media-libs/gegl cairo
 media-libs/libglvnd abi_x86_32

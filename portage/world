@@ -57,6 +57,7 @@ media-fonts/ubuntu-font-family
 media-fonts/unfonts
 media-fonts/vollkorn
 media-gfx/feh
+media-gfx/gimp-appimage
 media-gfx/imagemagick
 media-gfx/nomacs
 media-gfx/scrot
