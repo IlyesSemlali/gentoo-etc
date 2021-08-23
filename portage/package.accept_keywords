@@ -15,6 +15,7 @@ dev-libs/tree-sitter ~amd64
 dev-python/adblock ~amd64
 dev-python/pypeg2 ~amd64
 dev-util/goland ~amd64
+dev-util/packer ~amd64
 media-fonts/* ~amd64
 media-gfx/gimp-appimage ~amd64
 media-libs/libuvc ~amd64

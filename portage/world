@@ -1,7 +1,6 @@
 app-admin/ansible
 app-admin/keepassxc
 app-admin/sudo
-app-admin/terraform
 app-arch/unrar
 app-editors/neovim
 app-editors/vim

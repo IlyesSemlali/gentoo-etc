@@ -1,11 +1,13 @@
 # dev-haskell/pandoc-citeproc
+# net-im/zoom
+app-admin/terraform
 app-emulation/virtualbox
 app-emulation/virtualbox-additions
 app-emulation/virtualbox-modules
+dev-util/packer
 net-analyzer/netcat
 net-dns/bind-tools
 net-im/slack
 net-im/teams
-net-im/zoom
 sys-cluster/kubectl
 sys-cluster/minikube
