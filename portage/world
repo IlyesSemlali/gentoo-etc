@@ -137,6 +137,7 @@ x11-drivers/nvidia-drivers
 x11-drivers/xf86-video-intel
 x11-libs/libXcursor
 x11-libs/libxcb
+x11-misc/clipmenu
 x11-misc/dmenu
 x11-misc/dunst
 x11-misc/picom
