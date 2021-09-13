@@ -12,12 +12,13 @@ app-admin/keepassxc browser
 app-crypt/gcr gtk
 app-crypt/pinentry gnome-keyring
 app-editors/vim terminal python vim-pager
-app-text/poppler cairo
+app-text/poppler cairo nss
 app-text/texlive-core xetex
 app-text/xmlto text
 dev-db/mysql -server
 dev-db/sqlite secure-delete -icu
 dev-lang/python sqlite -bluetooth
+dev-libs/libdbusmenu gtk3
 dev-libs/libjcat gpg pkcs7
 dev-libs/xmlsec nss
 dev-python/PyQt5 printsupport sql declarative network multimedia gui widgets webchannel
