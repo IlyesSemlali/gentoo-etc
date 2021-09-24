@@ -23,8 +23,9 @@
 #       documentation for details on setting a label. To obtain the UUID, use
 #       the blkid(8) command.
 
-/dev/nvme0n1p2		/boot		ext4		noatime		1 2
-/dev/nvme0n1p1		/boot/efi	vfat		noatime		1 2
-/dev/nvme0n1p5		/		btrfs		noatime		0 1
-/dev/nvme0n1p3		/home/		btrfs		noatime 	0 1
-/dev/nvme0n1p4		none		swap		sw		0 0
+
+
+# <fs>      <mount>   <type>   <opts>           <dump/pass>
+/dev/sda4   /         ext4     noatime          0             1
+/dev/sda1   /boot     ext2     noauto,noatime   1             2
+/dev/sda3   none      swap     sw               0             0
