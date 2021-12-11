@@ -56,7 +56,6 @@ media-fonts/ubuntu-font-family
 media-fonts/unfonts
 media-fonts/vollkorn
 media-gfx/feh
-media-gfx/gimp-appimage
 media-gfx/imagemagick
 media-gfx/nomacs
 media-gfx/scrot
@@ -85,6 +84,7 @@ net-wireless/iw
 net-wireless/wavemon
 net-wireless/wireless-tools
 net-wireless/wpa_supplicant
+sci-libs/fftw
 sys-apps/acl
 sys-apps/bat
 sys-apps/dmidecode
@@ -105,6 +105,7 @@ sys-devel/gcc
 sys-fs/btrfs-progs
 sys-fs/dosfstools
 sys-fs/exfatprogs
+sys-fs/fuse:0
 sys-fs/lvm2
 sys-fs/ncdu
 sys-kernel/dracut

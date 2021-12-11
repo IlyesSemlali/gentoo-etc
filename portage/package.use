@@ -26,6 +26,7 @@ dev-python/QtPy printsupport gui
 dev-python/numpy lapack
 dev-qt/* qml widgets svc
 dev-qt/qtgui egl
+dev-qt/qtwidgets gtk
 kde-frameworks/kitemmodels qml
 media-gfx/gimp xpm vector-icons PYTHON_TARGETS: -* python2_7 PYTHON_SINGLE_TARGET: -* python2_7
 media-gfx/imagemagick xml
@@ -59,6 +60,7 @@ www-client/firefox geckodriver
 www-client/vivaldi proprietary-codecs widevine
 x11-base/xcb-proto -python_targets_python3_7
 x11-base/xorg-server xephyr kdrive
+x11-libs/libfm gtk
 x11-misc/lightdm non_root
 x11-misc/redshift geoclue
 x11-misc/rofi windowmode

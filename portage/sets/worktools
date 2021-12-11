@@ -4,6 +4,7 @@ app-admin/terraform
 app-emulation/virtualbox
 app-emulation/virtualbox-additions
 app-emulation/virtualbox-modules
+app-office/libreoffice-bin
 dev-util/packer
 net-analyzer/netcat
 net-dns/bind-tools

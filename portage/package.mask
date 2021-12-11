@@ -1,5 +1,4 @@
->sys-devel/gcc-10.2.0-r5
->sys-cluster/ceph-15.0.0
+>sys-cluster/ceph-14.2.21
 kde-frameworks/kwayland
 kde-plasma/kwayland-server
 kde-plasma/plasma-workspace

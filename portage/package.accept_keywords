@@ -26,12 +26,14 @@ net-im/slack ~amd64
 net-im/teams ~amd64
 net-im/zoom ~amd64
 sys-apps/bat ~amd64
-sys-cluster/minikube ~amd64
 sys-fs/exfatprogs ~amd64
 sys-libs/glibc amd64
 virtual/dist-kernel ~amd64
+www-apps/hugo ~amd64
 x11-libs/libtinynotify* ~amd64
 x11-misc/dunst ~amd64 # 1.5.0
+x11-misc/pcmanfm ~amd64
+x11-libs/libfm ~amd64
 x11-misc/rofi ~amd64 # 1.6.0
 x11-misc/shared-mime-info ~amd64 # 2.0-r2
 x11-misc/sw-notify-send ~amd64
