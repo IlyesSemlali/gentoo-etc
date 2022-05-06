@@ -24,3 +24,6 @@ net-im/teams ms-teams-pre
 
 # UnRAR
 app-arch/unrar unRAR
+
+# Dropbox
+net-misc/dropbox CC-BY-ND-3.0 dropbox

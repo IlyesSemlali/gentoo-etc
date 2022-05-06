@@ -1,14 +1,22 @@
 # dev-haskell/pandoc-citeproc
 # net-im/zoom
+app-admin/awscli
+app-admin/helm
 app-admin/terraform
+app-containers/docker
+app-containers/docker-compose
+app-emulation/vagrant
 app-emulation/virtualbox
 app-emulation/virtualbox-additions
 app-emulation/virtualbox-modules
-app-office/libreoffice-bin
+app-office/libreoffice
+dev-db/mysql
+dev-ruby/bcrypt_pbkdf # for vagrant
 dev-util/packer
 net-analyzer/netcat
 net-dns/bind-tools
 net-im/slack
 net-im/teams
+net-vpn/openvpn
 sys-cluster/kubectl
 sys-cluster/minikube

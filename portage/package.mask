@@ -1,4 +1,4 @@
->sys-cluster/ceph-14.2.21
-kde-frameworks/kwayland
+>app-admin/terraform-1.1.0
+>net-misc/openssh-8.7_p1-r3
 kde-plasma/kwayland-server
 kde-plasma/plasma-workspace

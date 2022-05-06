@@ -1,3 +1,5 @@
+>=app-crypt/libmd-1.0.4 abi_x86_32
+>=dev-libs/libbsd-0.11.3 abi_x86_32
 >=dev-libs/libpcre2-10.35 pcre16
 >=x11-base/xcb-proto-1.14-r1 abi_x86_32
 >=x11-libs/gdk-pixbuf-2.40.0 jpeg
@@ -11,6 +13,7 @@
 app-admin/keepassxc browser
 app-crypt/gcr gtk
 app-crypt/pinentry gnome-keyring
+app-editors/neovim lua_single_target_luajit -lua_single_target_lua5-1
 app-editors/vim terminal python vim-pager
 app-text/poppler cairo nss
 app-text/texlive-core xetex
@@ -18,16 +21,20 @@ app-text/xmlto text
 dev-db/mysql -server
 dev-db/sqlite secure-delete -icu
 dev-lang/python sqlite -bluetooth
+dev-libs/boost context python
 dev-libs/libdbusmenu gtk3
 dev-libs/libjcat gpg pkcs7
 dev-libs/xmlsec nss
+dev-lua/lpeg lua_targets_luajit
+dev-lua/luv lua_single_target_luajit -lua_single_target_lua5-1
+dev-lua/mpack lua_targets_luajit
 dev-python/PyQt5 printsupport sql declarative network multimedia gui widgets webchannel
 dev-python/QtPy printsupport gui
 dev-python/numpy lapack
 dev-qt/* qml widgets svc
 dev-qt/qtgui egl
-dev-qt/qtwidgets gtk
 kde-frameworks/kitemmodels qml
+kde-frameworks/sonnet qml
 media-gfx/gimp xpm vector-icons PYTHON_TARGETS: -* python2_7 PYTHON_SINGLE_TARGET: -* python2_7
 media-gfx/imagemagick xml
 media-libs/freetype harfbuzz
@@ -37,14 +44,17 @@ media-libs/libglvnd abi_x86_32
 media-libs/libpng apng
 media-libs/libvpx postproc
 media-libs/libvpx svc
-media-libs/mesa -vaapi
-media-libs/mesa wayland
+media-libs/mesa -vaapi wayland
 media-libs/mlt sdl xml jack fftw frei0r
+media-sound/pulseaudio -bluetooth
 media-video/ffmpeg chromium sdl v4l x264 x265
 media-video/vlc matroska mp3 flac dts chromecast qt X alsa libnotify loudness mpeg nfs mtp pulseaudio udev
+net-firewall/iptables conntrack
 net-libs/nodejs inspector
 net-libs/nodejs npm
 net-libs/zeromq drafts
+net-misc/dhcp server
+net-misc/openssh kerberos
 net-misc/remmina rdp vnc
 net-wireless/bluez udev deprecated extra-tools user-session
 sys-apps/dbus user-session
@@ -60,7 +70,6 @@ www-client/firefox geckodriver
 www-client/vivaldi proprietary-codecs widevine
 x11-base/xcb-proto -python_targets_python3_7
 x11-base/xorg-server xephyr kdrive
-x11-libs/libfm gtk
 x11-misc/lightdm non_root
 x11-misc/redshift geoclue
 x11-misc/rofi windowmode
